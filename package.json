@@ -1,0 +1,50 @@
+{
+  "name": "coders-twitter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Download Media Twitter best audio, video, image, GIF free and fastest, get metadata user, get posts from twitter user",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "twitterdl",
+    "twitter",
+    "twitter downloader",
+    "twitter download",
+    "twitter audio",
+    "twitter video",
+    "twitter scrapper"
+  ],
+  "author": "FarhanXCode7 <farhanxcode7@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fxc7/coders-twitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fxc7/coders-twitter/issues/"
+  },
+  "homepage": "https://github.com/Fxc7/coders-twitter",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "node-cache": "^5.1.2"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": false,
+    "endOfLine": "auto",
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
